@@ -89,7 +89,7 @@ Press `Ctrl+b` and then `d`
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/CodeLearning301)  ғᴏʀ  [ᴊᴀɴɴᴀᴛ ᴍᴜsɪᴄ](https://github.com/CodeLearning301/JannatMusic) </b>
+- <b>[MR RAJ](https://github.com/CodeLearning301)  ғᴏʀ  [ᴊᴀɴɴᴀᴛ ᴍᴜsɪᴄ](https://github.com/CodeLearning301/JannatMusic) </b>
 
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/CodeLearning301/JannatMusic/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ᴊᴀɴɴᴀᴛ ✘ ᴍᴜsɪᴄ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
