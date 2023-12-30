@@ -16,6 +16,9 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
         ]
+        [
+            InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"),
+        ],
     ]
 )
 
@@ -27,10 +30,10 @@ pm_buttons = [
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="jannat_help")],
+    [InlineKeyboardButton(text="ᴄσммαи∂ѕ нєяє", callback_data="jannat_help")],
     [
         InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/+hTILedqSqOo4MzI1"),
     ],
     [
         InlineKeyboardButton(
@@ -63,10 +66,8 @@ gp_buttons = [
 
 helpmenu = [
     [
-        InlineKeyboardButton(
-            text="ᴇᴠᴇʀʏᴏɴᴇ",
-            callback_data="jannat_cb help",
-        )
+        InlineKeyboardButton(text="ᴇᴠᴇʀʏᴏɴᴇ", callback_data="jannat_cb help"),
+        
     ],
     [
         InlineKeyboardButton(text="sᴜᴅᴏ", callback_data="jannat_cb sudo"),
@@ -82,7 +83,7 @@ helpmenu = [
 help_back = [
     [InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_help"),
+        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="jannat_help"),
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
     ],
 ]
