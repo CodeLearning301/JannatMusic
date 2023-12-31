@@ -31,7 +31,7 @@ pm_buttons = [
         )
     ],
     [   
-        InlineKeyboardButton(text="ᴄσммαи∂ѕ нєяє", callback_data="jannat_help")],
+        InlineKeyboardButton(text="ᴄσммαи∂ѕ нєяє", callback_data="jannat_help"),
     ],
     [
         InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
