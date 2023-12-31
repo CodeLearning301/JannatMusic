@@ -117,5 +117,5 @@ async def get_thumb(videoid):
         background.save(f"cache/{videoid}.png")
         return f"cache/{videoid}.png"
     except Exception as e:
-        print(e)
-        return YOUTUBE_IMG_URL
+        LOGGER.error(e)
+        return FAILED
