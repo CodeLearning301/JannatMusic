@@ -13,7 +13,7 @@ from JannatMusic import (
     jannatdb,
     pytgcalls,
 )
-from JannatMusic.Helpers import (
+ from JannatMusic.Helpers import (
     _clear_,
     admin_check_cb,
     gen_thumb,
@@ -21,8 +21,8 @@ from JannatMusic.Helpers import (
     stream_off,
     stream_on,
 )
-from JannatMusic.Helpers.dossier import *
-from JannatMusic.Helpers.inline import (
+ from JannatMusic.Helpers.dossier import *
+ from JannatMusic.Helpers.inline import (
     buttons,
     close_key,
     help_back,
