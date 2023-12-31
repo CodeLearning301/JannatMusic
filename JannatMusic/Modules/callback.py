@@ -16,7 +16,7 @@ from JannatMusic import (
  from JannatMusic.Helpers import (
     _clear_,
     admin_check_cb,
-    gen_thumb,
+    gen_thumbnails,
     is_streaming,
     stream_off,
     stream_on,
