@@ -7,8 +7,8 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
 
-from JannatMusic import app
-from config import YOUTUBE_IMG_URL
+from JannatMusic import BOT_ID, LOGGER, app
+from config import FAILED
 
 
 def changeImageSize(maxWidth, maxHeight, image):
