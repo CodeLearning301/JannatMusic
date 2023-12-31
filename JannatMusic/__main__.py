@@ -24,7 +24,7 @@ async def jannat_startup():
     LOGGER.info("[•] Loading Modules...")
     for module in ALL_MODULES:
         importlib.import_module("JannatMusic.Modules." + module)
-    LOGGER.info(j"[•] Loaded {len(ALL_MODULES)} Modules.")
+    LOGGER.info(f"[•] Loaded {len(ALL_MODULES)} Modules.")
 
     LOGGER.info("[•] Refreshing Directories...")
     if "downloads" not in os.listdir():
