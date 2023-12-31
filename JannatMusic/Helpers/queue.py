@@ -10,7 +10,7 @@ async def put(
     ruser,
     user_id,
 ):
-    put_f = {
+    put_j = {
         "title": title,
         "duration": duration,
         "file_path": file_path,
@@ -20,7 +20,7 @@ async def put(
     }
     get = jannatdb.get(chat_id)
     if get:
-        jannatdb[chat_id].append(put_f)
+        jannatdb[chat_id].append(put_j)
     else:
         jannatdb[chat_id] = []
-        jannatdb[chat_id].append(put_f)
+        jannatdb[chat_id].append(put_j)
